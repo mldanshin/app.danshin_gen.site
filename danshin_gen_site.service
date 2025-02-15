@@ -1,0 +1,31 @@
+[Unit]
+Description=DanshinGenSite
+After=network.target
+
+[Service]
+Type=simple
+SyslogIdentifier=danshin_gen_site
+User=root
+Group=root
+WorkingDirectory=/var/www/app/danshin_gen/site
+PIDFile=/var/www/app/danshin_gen/site/app.pid
+
+ExecStart=/usr/bin/npm start
+
+ExecStop=/bin/kill -s TERM $MAINPID
+
+ExecReload=/bin/kill -s USR2 $MAINPID
+
+Restart=always
+RestartSec=10
+StartLimitInterval=60
+StartLimitBurst=3
+
+TimeoutStartSec=120
+TimeoutStopSec=30
+
+Environment=NODE_ENV=production
+Environment=NODE_OPTIONS="--max-old-space-size=512"
+
+[Install]
+WantedBy=multi-user.target
