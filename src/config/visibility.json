@@ -1,0 +1,10 @@
+{
+    "visible": {
+        "name": "visible",
+        "stylePeople": {"display": ""}
+    },
+    "hidden": {
+        "name": "hidden",
+        "stylePeople": {"display": "none"}
+    }
+}

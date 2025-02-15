@@ -1,0 +1,11 @@
+{
+    "notice": {
+        "after_day": 2,
+        "before_day": 3,
+        "send_time": "09:00:00",
+        "sort_by_default": "alphabet"
+    },
+    "list": {
+        "sort_by_default": "date"
+    }
+}
