@@ -1,0 +1,269 @@
+.page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    min-height: 100vh;
+}
+
+.form-content {
+    padding-bottom: 100px;
+}
+
+.form-fields {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.dates-list {
+    margin-top: 30px;
+}
+
+.dates-list h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.date-item {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s;
+}
+
+.channel-manage-btn {
+    padding: 8px 16px;
+    background: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.channel-manage-btn:hover {
+    background: #5a6268;
+}
+
+.channel-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.channel-modal-content {
+    border-radius: 8px;
+    max-width: 800px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.channel-modal-close {
+    position: sticky;
+    top: 0;
+    float: right;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+    padding: 0 5px;
+    z-index: 1;
+}
+
+.channel-modal-close:hover {
+    color: #333;
+}
+
+.channel-open-btn {
+    padding: 12px 24px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.channel-open-btn:hover {
+    background: #0069d9;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    user-select: none;
+}
+
+.checkbox-input {
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.date-info {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.date-info strong {
+    margin-right: 8px;
+}
+
+.dark-theme .no-channel-message {
+    background: #332418;
+}
+
+.dark-theme .no-channel-message p {
+    color: #b7b7b7;
+}
+
+.dark-theme .submit-button {
+    background: #0070f3;
+    color: white;
+}
+
+.dark-theme .submit-button:hover {
+    background: #0051b3;
+}
+
+.fixed-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 16px;
+}
+
+.light-theme .no-channel-message {
+    background: #d3915d;
+}
+
+.light-theme .no-channel-message p {
+    color: #000000;
+}
+
+.light-theme .submit-button {
+    background: #0070f3;
+    color: white;
+}
+
+.light-theme .submit-button:hover {
+    background: #0051b3;
+}
+
+.notice-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.submit-button {
+    border: none;
+    padding: 14px 40px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 200px;
+    letter-spacing: 0.5px;
+}
+
+.submit-button:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .page-container {
+    padding: 15px;
+    }
+
+    .form-content {
+    padding-bottom: 120px;
+    }
+
+    .fixed-button-container {
+    padding: 15px;
+    }
+
+    .submit-button {
+    padding: 12px 30px;
+    min-width: 150px;
+    font-size: 15px;
+    width: 100%;
+    }
+
+    .date-info {
+    font-size: 14px;
+    }
+
+    .checkbox-input {
+    width: 18px;
+    height: 18px;
+    }
+}
+
+.no-channel-message {
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.no-channel-message p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+

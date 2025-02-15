@@ -1,0 +1,47 @@
+{
+    "channel": {
+        "title": "Управление каналами уведомлений",
+        "info": "Для доступа к настройкам уведомлений необходимо подключить хотя бы один канал: Email или Telegram"
+    },
+    "email": {
+        "title": "Настройка Email",
+        "label": "Текущий email",
+        "not_connected": "Email не подключен. Добавьте email для получения уведомлений.",
+        "placeholder": "Введите email",
+        "verify_button": "Подтвердить email",
+        "sending": "Отправка...",
+        "hint": "На указанный email будет отправлена ссылка для подтверждения",
+        "verification_sent": "Ссылка для подтверждения отправлена на {email}",
+        "verification_hint": "Перейдите по ссылке в письме, чтобы подтвердить email.",
+        "verified": "✅ Email успешно подтвержден!",
+        "enter_email": "Введите email",
+        "invalid_email": "Введите корректный email адрес",
+        "send_error": "Ошибка отправки ссылки подтверждения",
+        "verify_error": "Ошибка подтверждения email",
+        "load_error": "Ошибка загрузки каналов",
+        "delete": {
+            "confirm": "Вы уверены, что хотите удалить этот email?",
+            "error": "Ошибка удаления email",
+            "ok": "Канал успешно удалён",
+            "button": "Удалить email"
+        }
+    },
+    "telegram": {
+        "title": "Настройка Telegram",
+        "not_connected": "Telegram не подключен. Подключите Telegram для получения уведомлений.",
+        "connect": "Подключить Telegram",
+        "creating": "Создание ссылки...",
+        "follow_link": "Перейдите по ссылке в Telegram и в боте нажмите START",
+        "connected": "Telegram подключен:",
+        "link_created": "Ссылка для подключения Telegram создана",
+        "link_error": "Ошибка создания ссылки для Telegram",
+        "copy_success": "Ссылка скопирована в буфер обмена",
+        "copy_title": "Копировать ссылку",
+        "delete": {
+            "confirm": "Вы уверены, что хотите отключить Telegram?",
+            "error": "Ошибка отключения Telegram",
+            "ok": "Канал успешно удалён",
+            "button": "Отключить Telegram"
+        }
+    }
+}

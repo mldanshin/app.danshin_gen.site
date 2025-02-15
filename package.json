@@ -1,0 +1,22 @@
+{
+  "name": "danshin_gen_site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "test": "cypress open",
+    "test2": "cypress run"
+  },
+  "dependencies": {
+    "next": "^16.2.10",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "cypress": "^15.20.0",
+    "eslint": "^10.8.0",
+    "eslint-config-next": "^16.2.0"
+  }
+}
