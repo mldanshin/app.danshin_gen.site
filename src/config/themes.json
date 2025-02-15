@@ -1,0 +1,24 @@
+{
+    "dark": {
+        "name": "dark",
+        "className": "dark-theme",
+        "image": "/img/layout/moon.svg",
+        "imageAlt": "theme dark",
+        "iconDownloadDb": "/img/download/database-dark.svg",
+        "iconPeopleClose": "/img/people/close-dark.svg",
+        "iconDownloadPerson": "/img/person/download-pdf-dark.svg",
+        "iconDownloadTree": "/img/tree/download-svg-dark.svg",
+        "iconShowTree": "/img/tree/show-image-dark.svg"
+    },
+    "light": {
+        "name": "light",
+        "className": "light-theme",
+        "image": "/img/layout/sun.svg",
+        "imageAlt": "theme light",
+        "iconDownloadDb": "/img/download/database-light.svg",
+        "iconPeopleClose": "/img/people/close-light.svg",
+        "iconDownloadPerson": "/img/person/download-pdf-light.svg",
+        "iconDownloadTree": "/img/tree/download-svg-light.svg",
+        "iconShowTree": "/img/tree/show-image-light.svg"
+    }
+}

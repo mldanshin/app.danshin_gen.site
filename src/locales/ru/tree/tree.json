@@ -1,0 +1,49 @@
+{
+    "title": "Древо для",
+    "toggle": "Построено по",
+    "help": [
+        {
+            "key": "ctrl_mouse_wheel",
+            "value": "shift + колёсико мыши",
+            "description": "увеличение/уменьшение"
+        },
+        {
+            "key": "ctrl_mouse_mouseover",
+            "value": "shift + движение мышью",
+            "description": "перетаскивание"
+        },
+        {
+            "key": "mouse_double_click",
+            "value": "двойной клик мыши",
+            "description": "возвращение в исходное состояние"
+        }
+    ],
+    "person": {
+        "surname": {
+            "unknown": "?Фамилия?"
+        },
+        "name": {
+            "unknown": "?Имя?"
+        },
+        "patronymic": {
+            "unknown": "?Отчество?"
+        }
+    },
+    "button": {
+        "help": {
+            "tooltip": "Подсказки",
+            "alt": "Подсказки"
+        }
+    },
+    "link": {
+        "download": {
+            "tooltip": "Скачать файл древа"
+        },
+        "window": {
+            "tooltip": "Открыть в отдельном окне"
+        },
+        "person": {
+            "tooltip": "Открыть карточку"
+        }
+    }
+}

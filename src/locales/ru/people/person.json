@@ -1,0 +1,19 @@
+{
+    "link": {
+        "person": {
+            "tooltip": "Открыть карточку"
+        },
+        "tree": {
+            "tooltip": "Построить древо"
+        }
+    },
+    "surname": {
+        "unknown": "?Фамилия?"
+    },
+    "name": {
+        "unknown": "?Имя?"
+    },
+    "patronymic": {
+        "unknown": "?Отчество?"
+    }
+}

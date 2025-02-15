@@ -1,0 +1,15 @@
+{
+    "sort_by": {
+        "collection": [
+            {
+                "id": "1",
+                "alias": "name"
+            },
+            {
+                "id": "2",
+                "alias": "age"
+            }
+        ],
+        "default": "name"
+    }
+}
